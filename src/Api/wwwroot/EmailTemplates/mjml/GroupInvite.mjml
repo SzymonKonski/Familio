@@ -1,0 +1,15 @@
+<mjml>
+  <mj-include path="./components/styles.mjml" />
+  <mj-body>
+    <mj-section mj-class="main-section">
+      <mj-column>
+        <mj-include path="./components/logo.mjml" />
+        <mj-text mj-class="message">Hi, you were invited to family %%group_name%%. To accept the invitation use the code below</mj-text>
+        <mj-text mj-class="code">%%accept_invitation_code%%</mj-text>
+        <mj-text mj-class="message">or click the button below.</mj-text>
+        <mj-button mj-class="action-button" href="%%accept_invitation_link%%">Accept invitation</mj-button>
+        <mj-include path="./components/footer.mjml" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

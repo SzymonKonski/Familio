@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+     <Content Remove="appsettings.Development.json" />
+     <Content Remove="wwwroot\EmailTemplates\mjml\components\footer.mjml" />
+     <Content Remove="wwwroot\EmailTemplates\mjml\components\logo.mjml" />
+     <Content Remove="wwwroot\EmailTemplates\mjml\components\styles.mjml" />
+     <Content Remove="wwwroot\EmailTemplates\mjml\ConfirmEmail.mjml" />
+     <Content Remove="wwwroot\EmailTemplates\mjml\GroupInvite.mjml" />
+     <Content Remove="wwwroot\EmailTemplates\mjml\ResetPassword.mjml" />
+     <Content Remove="wwwroot\EmailTemplates\plaintext\ConfirmEmail_plaintext.txt" />
+     <Content Remove="wwwroot\EmailTemplates\plaintext\GroupInvite_plaintext.mjml" />
+     <Content Remove="wwwroot\EmailTemplates\plaintext\ResetPassword_plaintext.txt" />
+     <Content Remove="wwwroot\EmailTemplates\README.md" />
+   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="appsettings.Development.json" />
+    <None Include="wwwroot\EmailTemplates\mjml\components\footer.mjml" />
+    <None Include="wwwroot\EmailTemplates\mjml\components\logo.mjml" />
+    <None Include="wwwroot\EmailTemplates\mjml\components\styles.mjml" />
+    <None Include="wwwroot\EmailTemplates\mjml\ConfirmEmail.mjml" />
+    <None Include="wwwroot\EmailTemplates\mjml\GroupInvite.mjml" />
+    <None Include="wwwroot\EmailTemplates\mjml\ResetPassword.mjml" />
+    <None Include="wwwroot\EmailTemplates\plaintext\ConfirmEmail_plaintext.txt" />
+    <None Include="wwwroot\EmailTemplates\plaintext\GroupInvite_plaintext.mjml" />
+    <None Include="wwwroot\EmailTemplates\plaintext\ResetPassword_plaintext.txt" />
+    <None Include="wwwroot\EmailTemplates\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
+
+	<ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

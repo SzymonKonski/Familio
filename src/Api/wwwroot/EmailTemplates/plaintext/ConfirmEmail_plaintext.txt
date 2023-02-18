@@ -1,0 +1,12 @@
+Confirm email
+
+Hi, to confirm your email use the code below
+
+%%confirm_email_code%%
+
+or visit the link below.
+
+%%confirm_email_link%%
+
+
+Familio team 2023

@@ -1,0 +1,18 @@
+<mj-head>
+    <mj-style inline="inline">
+    a {
+        text-decoration: none;
+        color: #8d48c3;
+    }
+    </mj-style>
+    <mj-attributes>
+        <mj-all font-family="sans-serif, Arial" padding="0" font-weight="400" font-size="16px"/>
+        <mj-body background-color="#fff" />
+        <mj-class name="main-section" padding="40px 24px"/>
+        <mj-class name="message" align="center" padding-bottom="24px"/>
+        <mj-class name="action-button" padding-bottom="24px"/>
+        <mj-button background-color="#8d48c3" border-radius="6px" inner-padding="10px 16px" line-height="20px" font-size="16px" font-weight="600" />
+        <mj-divider border-color="#e2e2e2" border-width="1px"/>
+        <mj-class name="code" align="center" padding-bottom="24px" font-weight="700" letter-spacing="2px"/>
+    </mj-attributes>
+</mj-head>
