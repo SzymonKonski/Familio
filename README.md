@@ -38,3 +38,17 @@ The authentication in the server module has been implemented using the Microsoft
 * NUnit
 * FlutenAssertions
 
+# Tools used:
+* Visual Studio 2022
+* Visual Studio Code
+* Source Tree
+* Microsoft SQL Server Management Studio 18
+
+# Design Patterns used
+* CQRS
+* Mediator
+
+# Tests
+* Unit tests
+* Integration tests
+* Performance tests with NBomber
