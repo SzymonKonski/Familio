@@ -24,3 +24,17 @@ Communication between the server and client applications takes place in two ways
 
 ## Authentication
 The authentication in the server module has been implemented using the Microsoft.Aspnetcore.Identity library. On the basis of the email address sent by the User and password, an access token and refresh token are generated and then are returned to the client application.
+
+# Tech Stack
+* .NET 6.0
+* ASP.NET CORE 6.0
+* Microcosft SQL Server
+* SignalR
+* Entity Framework Core 6.0
+* AutoMapper
+* FluentValidation
+* SendGrid
+* Azure.Storage.Blobs
+* NUnit
+* FlutenAssertions
+
